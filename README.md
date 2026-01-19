@@ -7,3 +7,6 @@ A versatile, open-source tool for scanning, managing, and generating both barcod
 - tools to generate barcodes
 - tools to generate QR codes containing data that can be easily read by smartphones.
 
+## version
+python version = 3.14.2
+
