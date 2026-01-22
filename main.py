@@ -3,7 +3,6 @@ import csv
 # csv Column
 CsvColumn = [
     ["ID", "Type", "data"],
-    ["0", "Barcode", "123456"],
 ]
 
 
@@ -29,8 +28,9 @@ def save_code_to_csv(code_type, data):
 # Création du fichier CSV
 create_csv_file(CsvColumn)
 
+
 while True:
-    # calling fonction to save code
+    # calling fonction to scan code
     ScannedCode = scan_code()
     print(ScannedCode)
 
@@ -43,6 +43,7 @@ while True:
     while True:
         SaveCode = input("Save code y or n : ")
         if SaveCode == "y":
+            # caling save code function and giving code type and the code as an argument 
             save_code_to_csv(code_type, ScannedCode)
             break
         elif SaveCode == "n":
