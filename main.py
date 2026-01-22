@@ -43,7 +43,7 @@ while True:
     while True:
         SaveCode = input("Save code y or n : ")
         if SaveCode == "y":
-            # caling save code function and giving code type and the code as an argument 
+            # calling save code function and giving code type and the code as an argument 
             save_code_to_csv(code_type, ScannedCode)
             break
         elif SaveCode == "n":
