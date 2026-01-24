@@ -10,6 +10,6 @@ A versatile, open-source tool for scanning, managing, and generating both barcod
 ## version
 python version = 3.14.2
 
-## Release
+## branche
 
 - dev-v1 : chain scanning and adding to csv file 
