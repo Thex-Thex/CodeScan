@@ -13,3 +13,5 @@ python version = 3.14.2
 ## branche
 
 - dev-v1 : chain scanning and adding to csv file 
+- dev-v2 : 
+    - TODO : adding database support
